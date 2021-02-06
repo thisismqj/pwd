@@ -2,6 +2,6 @@ version: '3'
 
 services:
     cloud:
-        image: dorowu/ubuntu-desktop-lxde-vnc:latest
+        image: oldiy/chrome-novnc:latest
         ports:
-            - '8080:80'
+            - 8083
