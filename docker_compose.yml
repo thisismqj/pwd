@@ -4,5 +4,5 @@ services:
     cloud:
         image: dorowu/ubuntu-desktop-lxde-vnc:latest
         ports:
-            - 5900:5900
-            - 6080:443
+            - 8080
+            - 8443
