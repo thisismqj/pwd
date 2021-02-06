@@ -3,3 +3,6 @@ version: '3'
 services:
     cloud:
         image: oldiy/chrome-novnc:latest
+        port:
+            - 8083
+
