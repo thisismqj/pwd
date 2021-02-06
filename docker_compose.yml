@@ -5,3 +5,4 @@ services:
         image: dorowu/ubuntu-desktop-lxde-vnc:latest
         ports:
             - 5900:5900
+            - 6080:6080
