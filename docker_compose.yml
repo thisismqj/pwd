@@ -5,4 +5,3 @@ services:
         image: dorowu/ubuntu-desktop-lxde-vnc:latest
         ports:
             - 8080
-            - 8443
