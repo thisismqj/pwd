@@ -3,3 +3,5 @@ version: '3'
 services:
     cloud:
         image: dorowu/ubuntu-desktop-lxde-vnc:latest
+        ports:
+            - 5900:5900
